@@ -190,6 +190,7 @@ p {
   display: flex;
   gap: 16px;
   align-items: center;
+  margin: 12px;
 }
 
 #controls input {
@@ -230,4 +231,10 @@ p {
 
 .destroy-button:hover {
   background-color: #bb2121;
+}
+
+#boxes {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
 }

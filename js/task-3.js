@@ -1,5 +1,5 @@
-const inputField = document.querySelector("#name-input");
-const outputText = document.querySelector("#name-output");
+const inputField = document.getElementById("name-input");
+const outputText = document.getElementById("name-output");
 
 inputField.addEventListener("input", (even) => {
   const trimmedValueInput = inputField.value.trim();
